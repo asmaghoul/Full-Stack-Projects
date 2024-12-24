@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.beautiful-button {
+  background-color: #28a745; /* Set the background color */
+  color: #fff; /* Set the text color */
+  font-size: 16px; /* Adjust the font size */
+  border-radius: 8px; /* Add rounded corners */
+  padding: 10px 20px; /* Add padding to the button */
+  transition: background-color 0.3s ease; /* Add a smooth transition effect */
+
+  /* Hover effect */
+  &:hover {
+    background-color: #218838; /* Change the background color on hover */
+  }
+}
+
+.button-link {
+  text-decoration: none; /* Remove underline from the link */
+  color: inherit; /* Inherit the color from the parent */
+}

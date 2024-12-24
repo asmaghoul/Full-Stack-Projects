@@ -1,0 +1,4 @@
+Project Team
+
+- Souad Guied: BackEnd Developper
+- Asma Ghoul: FrontEnd Developper
